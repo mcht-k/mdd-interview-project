@@ -1,0 +1,33 @@
+2024-04-09 13:40:34,090 [7] INFO  MddInterviewProject.MvcApplication - Fetching posts and comments
+2024-04-09 13:40:34,606 [7] ERROR MddInterviewProject.MvcApplication - Error while fetching posts and comments
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MddInterviewProject.Services.BlogService.<GetPostsAndCommentsAsync>d__4.MoveNext() in C:\Users\mchto\RiderProjects\MddInterviewProject\MddInterviewProject\Services\BlogService.cs:line 32
+2024-04-09 13:40:40,267 [9] INFO  MddInterviewProject.MvcApplication - Fetching posts and comments
+2024-04-09 13:40:40,350 [15] ERROR MddInterviewProject.MvcApplication - Error while fetching posts and comments
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MddInterviewProject.Services.BlogService.<GetPostsAndCommentsAsync>d__4.MoveNext() in C:\Users\mchto\RiderProjects\MddInterviewProject\MddInterviewProject\Services\BlogService.cs:line 32
+2024-04-09 13:42:48,572 [7] INFO  MddInterviewProject.MvcApplication - Fetching posts and comments
+2024-04-09 13:42:48,802 [8] INFO  MddInterviewProject.MvcApplication - Posts and comments fetched successfully
+2024-04-09 13:42:48,802 [8] INFO  MddInterviewProject.MvcApplication - Deserializing posts and comments
+2024-04-09 13:42:48,918 [8] INFO  MddInterviewProject.MvcApplication - Posts and comments deserialized successfully
+2024-04-09 13:43:01,654 [7] INFO  MddInterviewProject.MvcApplication - Fetching posts and comments
+2024-04-09 13:43:01,735 [7] INFO  MddInterviewProject.MvcApplication - Posts and comments fetched successfully
+2024-04-09 13:43:01,735 [7] INFO  MddInterviewProject.MvcApplication - Deserializing posts and comments
+2024-04-09 13:43:01,739 [7] INFO  MddInterviewProject.MvcApplication - Posts and comments deserialized successfully
+2024-04-09 13:43:18,184 [7] INFO  MddInterviewProject.MvcApplication - Fetching posts and comments
+2024-04-09 13:43:18,267 [7] INFO  MddInterviewProject.MvcApplication - Posts and comments fetched successfully
+2024-04-09 13:43:18,267 [7] INFO  MddInterviewProject.MvcApplication - Deserializing posts and comments
+2024-04-09 13:43:18,270 [7] INFO  MddInterviewProject.MvcApplication - Posts and comments deserialized successfully
+2024-04-09 13:43:38,910 [7] INFO  MddInterviewProject.MvcApplication - Fetching posts and comments
+2024-04-09 13:44:55,239 [14] ERROR MddInterviewProject.MvcApplication - Error while fetching posts and comments
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MddInterviewProject.Services.BlogService.<GetPostsAndCommentsAsync>d__4.MoveNext()

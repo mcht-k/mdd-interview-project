@@ -1,0 +1,31 @@
+@model System.Collections.Generic.List<MddInterviewProject.Models.Post>
+
+@{
+    ViewBag.Title = "title";
+    Layout = "../Shared/_Layout.cshtml";
+}
+
+<h3>Blog</h3>
+<ul>
+    @foreach (var post in @Model)
+    {
+     
+        <li>
+            <div class="post">
+                
+            <h4>@post.Id @post.Title</h4>
+                <p>@post.Body</p>
+                <div class="comments">
+                    <ul>
+                        @foreach(var comment in post.Comments)
+                        {
+                            <li>
+                                <p>@comment.Body</p>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </li>   
+    }
+</ul>
