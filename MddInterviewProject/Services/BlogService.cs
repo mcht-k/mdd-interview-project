@@ -29,7 +29,7 @@ namespace MddInterviewProject.Services
             try
             {
                 _logger.Info("Fetching posts and comments");
-                var postsResponse = await _httpClient.GetStringAsync(_baseUrl + "/postss");
+                var postsResponse = await _httpClient.GetStringAsync(_baseUrl + "/posts");
                 var commentsResponse = await _httpClient.GetStringAsync(_baseUrl + "/comments");
                 _logger.Info("Posts and comments fetched successfully");
                 

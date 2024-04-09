@@ -1,0 +1,14 @@
+@model MddInterviewProject.Models.Post
+
+ <div class="post">
+            <h4>@Model.Id @Model.Title</h4>
+                <p>@Model.Body</p>
+                <div class="comments">
+                    <ul>
+                        @foreach(var comment in Model.Comments)
+                        {
+                            @Html.Partial("_Comment", comment)
+                        }
+                    </ul>
+                </div>
+            </div>

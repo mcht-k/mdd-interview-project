@@ -9,23 +9,8 @@
 <ul>
     @foreach (var post in @Model)
     {
-     
         <li>
-            <div class="post">
-                
-            <h4>@post.Id @post.Title</h4>
-                <p>@post.Body</p>
-                <div class="comments">
-                    <ul>
-                        @foreach(var comment in post.Comments)
-                        {
-                            <li>
-                                <p>@comment.Body</p>
-                            </li>
-                        }
-                    </ul>
-                </div>
-            </div>
+            @Html.Partial("_Post", post)
         </li>   
     }
 </ul>
